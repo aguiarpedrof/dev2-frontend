@@ -13,8 +13,8 @@ export default function CrudUsuarios() {
   const [experiencia, setExperiencia] = useState("");
   const [operacao, setOperacao] = useState("");
 
-  // const url = "https://backend-unifei-omega.vercel.app/Clientes/";
-const url = "http://localhost:9081/Clientes/";
+const url = "https://backend-unifei-omega.vercel.app/Clientes/";
+// const url = "http://localhost:3001/Clientes/";
   useEffect(() => {
     axios
       .get(url)
